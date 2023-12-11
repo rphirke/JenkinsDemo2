@@ -1,4 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: com.test.SampleTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 49.702 s - in com.test.SampleTest
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 0.433 s <<< FAILURE! - in com.test.SampleTest
+com.test.SampleTest.setUp  Time elapsed: 0.292 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "java.lang.System.getProperty(String)" is null
+

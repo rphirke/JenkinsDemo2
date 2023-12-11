@@ -43,10 +43,10 @@ public class BaseClass {
 	    System.out.println("Login Successfully.");
 	}
 	
-	@AfterTest
-	public void tearDown()
-	{
-		driver.close();
-	}
+//	@AfterTest
+//	public void tearDown()
+//	{
+//		driver.close();
+//	}
 
 }
